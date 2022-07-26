@@ -14,6 +14,7 @@ vcpkg_add_to_path(PREPEND "${NASM_EXE_PATH}")
 set(CONFIGURE_COMMAND ${PERL} Configure
     enable-static-engine
     enable-capieng
+    enable-ssl3
     no-unit-test
     no-ssl2
     no-asm
