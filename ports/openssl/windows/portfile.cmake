@@ -22,7 +22,8 @@ set(CONFIGURE_OPTIONS
     enable-static-engine
     enable-capieng
     enable-ssl3
-    no-ssl2
+    enable-ssl2
+    # no-ssl2
     no-tests
     ${OPENSSL_SHARED}
 )
