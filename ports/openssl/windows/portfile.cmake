@@ -21,6 +21,7 @@ set(ENV{LD} "${VCPKG_DETECTED_CMAKE_LINKER}")
 set(CONFIGURE_OPTIONS
     enable-static-engine
     enable-capieng
+    enable-ssl3
     no-ssl2
     no-tests
     ${OPENSSL_SHARED}
