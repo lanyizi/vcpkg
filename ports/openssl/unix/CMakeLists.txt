@@ -161,6 +161,8 @@ add_custom_command(
         WORKING_DIRECTORY "${BUILDDIR}"
 )
 
+list(APPEND DISABLES enable-ssl3)
+
 if(NOT IOS)
     add_custom_command(
         OUTPUT "${BUILDDIR}/Makefile"
