@@ -161,7 +161,7 @@ add_custom_command(
         WORKING_DIRECTORY "${BUILDDIR}"
 )
 
-list(APPEND DISABLES enable-ssl3)
+list(APPEND DISABLES enable-ssl2 enable-ssl3)
 
 if(NOT IOS)
     add_custom_command(
@@ -190,7 +190,7 @@ if(NOT IOS)
         list(APPEND DISABLES
                 enable-static-engine
                 no-zlib
-                no-ssl2
+                # no-ssl2
                 no-idea
                 no-cast
                 no-seed
