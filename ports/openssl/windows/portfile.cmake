@@ -22,6 +22,7 @@ set(CONFIGURE_OPTIONS
     enable-static-engine
     enable-capieng
     enable-ssl3
+    enable-ssl3-method
     enable-ssl2
     # no-ssl2
     no-tests

@@ -161,7 +161,7 @@ add_custom_command(
         WORKING_DIRECTORY "${BUILDDIR}"
 )
 
-list(APPEND DISABLES enable-ssl2 enable-ssl3)
+list(APPEND DISABLES enable-ssl2 enable-ssl3 enable-ssl3-method)
 
 if(NOT IOS)
     add_custom_command(

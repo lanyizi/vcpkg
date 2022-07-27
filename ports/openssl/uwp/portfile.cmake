@@ -15,6 +15,7 @@ set(CONFIGURE_COMMAND ${PERL} Configure
     enable-static-engine
     enable-capieng
     enable-ssl3
+    enable-ssl3-method
     enable-ssl2
     no-unit-test
     # no-ssl2
