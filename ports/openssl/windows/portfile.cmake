@@ -24,6 +24,7 @@ set(CONFIGURE_OPTIONS
     enable-ssl3
     enable-ssl3-method
     enable-ssl2
+    enable-weak-ssl-ciphers
     # no-ssl2
     no-tests
     ${OPENSSL_SHARED}

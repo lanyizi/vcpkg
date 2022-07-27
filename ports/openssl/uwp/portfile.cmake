@@ -17,6 +17,7 @@ set(CONFIGURE_COMMAND ${PERL} Configure
     enable-ssl3
     enable-ssl3-method
     enable-ssl2
+    enable-weak-ssl-ciphers
     no-unit-test
     # no-ssl2
     no-asm
